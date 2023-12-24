@@ -4,7 +4,7 @@ from rubpy.crypto import Crypto
 import asyncio, os, time
 
 api_id = 28492101
-api_hash = 3bde8a7823af88c00813002620e883a6 ''
+api_hash = '3bde8a7823af88c00813002620e883a6'
 admin = [6826479744]
 client = TelegramClient('ArmX', api_id, api_hash)
 client.start()
